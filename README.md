@@ -1,2 +1,2 @@
-# Final-NearBy-Search
-An app to find great places around you
+# NearBy-Search
+Nearby Search Application
