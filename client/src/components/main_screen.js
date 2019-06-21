@@ -7,8 +7,8 @@ import DisplayScreen from './display_screen';
 import Autocomplete from 'react-google-autocomplete';
 import 'bootstrap/dist/css/bootstrap.css';
 import './main_screen.css';
-// const API_KEY = 'AIzaSyALb4eynR_OL39AuK731m6pB1toiTAP0Xg';
-const API_KEY = 'AIzaSyA5l6I42KwsLL1W_rAHxjTMPdpVDDdy9RE';
+const API_KEY = 'AIzaSyALb4eynR_OL39AuK731m6pB1toiTAP0Xg';
+// const API_KEY = 'AIzaSyA5l6I42KwsLL1W_rAHxjTMPdpVDDdy9RE';
 const google = window.google;
 
 
@@ -561,7 +561,7 @@ class MainScreen extends Component {
                                                 // onChange={this.handleChange}
                                                 /> */}
                                             <Script
-                                              url='https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&libraries=places'
+                                              url='https://maps.googleapis.com/maps/api/js?key=AIzaSyALb4eynR_OL39AuK731m6pB1toiTAP0Xg&libraries=places'
                                               onLoad={this.handleScriptLoad}
                                             />
                                             <input

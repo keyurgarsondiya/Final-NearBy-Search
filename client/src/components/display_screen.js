@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import './display_screen.css';
-const API_KEY = 'AIzaSyA5l6I42KwsLL1W_rAHxjTMPdpVDDdy9RE';
+const API_KEY = 'AIzaSyALb4eynR_OL39AuK731m6pB1toiTAP0Xg';
 
 class DisplayScreen extends Component {
   constructor(props) {
@@ -138,22 +138,6 @@ class DisplayScreen extends Component {
                         </p>
                       </li>
                     </ul>
-                    {/* <p>
-                    Name: {this.state.result.name}
-                    <br />
-                    International Phone Number:&nbsp;
-                    {this.state.result.international_phone_number}
-                    <br />
-                    Address: {this.state.result.formatted_address}
-                    <br />
-                    Rating: {this.state.result.rating}
-                    <br />
-                    Website:&nbsp;
-                    <a href={this.state.result.website} target='_blank'>
-                      {this.state.result.name} Website
-                    </a>
-                    <br />
-                  </p> */}
                   </div>
                 </div>
                 <div className='modal-footer'>
