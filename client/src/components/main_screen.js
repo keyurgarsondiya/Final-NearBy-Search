@@ -657,7 +657,8 @@ class MainScreen extends Component {
                   </div>
                   </div>
             </section>
-                  {(this.state.distance_calculated) ? (<DisplayScreen SearchList={this.state.result} /> ) : (<div />)}
+                  {/* {(this.state.distance_calculated) ? (<DisplayScreen SearchList={this.state.result} /> ) : (<div />)} */}
+                  <DisplayScreen SearchList={this.state.result} />
                   </div>
                 
               ) : (
