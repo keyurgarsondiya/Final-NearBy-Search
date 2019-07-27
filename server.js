@@ -4,9 +4,10 @@ const cors = require('cors');
 const fetch = require('node-fetch');
 const path = require('path');
 
-const API_KEY = 'AIzaSyALb4eynR_OL39AuK731m6pB1toiTAP0Xg';
+// const API_KEY = 'AIzaSyALb4eynR_OL39AuK731m6pB1toiTAP0Xg';
 // const API_KEY = 'AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s';
 // const API_KEY = 'AIzaSyA5l6I42KwsLL1W_rAHxjTMPdpVDDdy9RE';
+const API_KEY = 'AIzaSyDuLv4aZRFP5S-wsuKbSpsuszzmdoTUmHo';
 
 const app = express();
 app.use(express.json());
